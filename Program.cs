@@ -110,4 +110,5 @@ app.MapPatch("/games/{id}", (int id, PatchGameDto game) => {
     }
     return Results.NotFound("Game not found.");
 });
+
 app.Run();
